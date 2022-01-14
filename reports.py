@@ -47,6 +47,7 @@ class PdfReport:
         webbrowser.open('file://'+os.path.realpath("pdffiles/"+self.filename))
 
 
+"""
 class FileSharer:
 
     def __init__(self, filepath, api_key='AEI2SO4bRkenQ9FYanPwMz'):
@@ -57,3 +58,4 @@ class FileSharer:
         client = Client(self.api_key)
         new_filelink = client.upload(filepath=self.filepath)
         return new_filelink.url
+"""

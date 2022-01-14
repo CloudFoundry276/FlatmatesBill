@@ -1,5 +1,5 @@
 from flat import Bill, Flatmate
-from reports import PdfReport, FileSharer
+from reports import PdfReport
 
 amount = float(input("Hey user, enter the bill amount: "))
 period = input("What is the bill period (ex. December 2020): ")
