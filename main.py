@@ -20,5 +20,7 @@ print("Amount paid by {} is ${}".format(flatmate2.name, flatmate2.pays(the_bill,
 pdf_report = PdfReport("{}.pdf".format(the_bill.period))
 pdf_report.generate(flatmate1, flatmate2, the_bill)
 
+"""
 file_sharer = FileSharer(filepath=pdf_report.filename)
 print(file_sharer.share())
+"""
