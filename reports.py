@@ -42,12 +42,13 @@ class PdfReport:
         pdf.cell(w=100, h=25, txt=flatmate2.name, border=0)
         pdf.cell(w=180, h=25, txt=flatmate2_pay, border=0, ln=1)
 
-        pdf.output("pdffiles/"+self.filename)
+        # pdf.output("pdffiles/" + self.filename)
+        pdf.output(self.filename)
 
-        webbrowser.open('file://'+os.path.realpath("pdffiles/"+self.filename))
+        # webbrowser.open('file://' + os.path.realpath("pdffiles/" + self.filename))
+        webbrowser.open('file://' + os.path.realpath(self.filename))
 
 
-"""
 class FileSharer:
 
     def __init__(self, filepath, api_key='AEI2SO4bRkenQ9FYanPwMz'):
@@ -56,6 +57,5 @@ class FileSharer:
 
     def share(self):
         client = Client(self.api_key)
-        new_filelink = client.upload(filepath=self.filepath)
-        return new_filelink.url
-"""
+        new_fileline = client.upload(filepath=self.filepath)
+        return new_fileline.url
