@@ -4,4 +4,3 @@ documentation/
 
 # ignore all .pdf files
 *.pdf
-pdffiles/
