@@ -1,5 +1,4 @@
 # ignore all .txt files
-*.txt
 documentation/
 
 # ignore all .pdf files
