@@ -11,4 +11,4 @@ In this app, we take monthly rent amount (e.g. 1000) in rupees or dollar and mon
 
 After getting rent input data, we get name and number of days of two users stay for that month on rent.
 
-After getting all data, we calculate rent of each user have to pay for that perticular month.
+After getting all data, we calculate rent of each user have to pay for that perticular month and generate pdf file and store in specified location.
